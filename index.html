@@ -9,58 +9,74 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
 
     <title>Portfolio</title>
 </head>
-
-<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <div class="wrapper">
-            <header class="row">
-                <div class="col-md-2">
-                    <div class="name text-primary">
-                        <h1>Bill Murray</h1>
-                    </div>
-                </div>
-
-                <div class="col-md-8">
-                    <ul class="nav list-style-none">
-                        <li> <a href="index.html">
-                        <li>About</li></a>
-                        <li> <a href="portfolio.html">
-                        <li>Portfolio</li></a>
-                        <li> <a href="contact.html">
-                        <li>Contact</li></a>
-                    </ul>
-                </div>
-            </header>
-        </div>
-
-        <div class=row>
-            <h2> About Me</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="assets/images/profile_pic.jpg" alt="profile picture">
-            </div>
-            <div class="col-md-8 border">
-                I moved to San Diego two and a half years ago to chase a dream of starting fresh.
-                I have always enjoyed creating and technology, thus my path has lead me to Web Design and Development.
-                <br>
-                Take a look around, and if you see what you like give me a holler.
-            </div>
-        </div>
-
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Bill Murray</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
+<!-- Start of container -->
+<main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="assets/images/profile_pic.jpg" alt="" id="about-image" />
+          <!-- About me -->
+          <p></p>
+          <br />
+          <!-- About me -->
+          <p></p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- End of container -->
 
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
+  </footer>
+  <!-- End of footer -->
 
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    </div>
-
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
 
 </body>
+</html>
